@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="container p-5 my-5 text-center border rounded w-50 bg-light">
+
+        <h1>Login</h1>
+
+        <form action="">
+
+            <div class="mb-3">
+                <label for="user" class="form-label">Usuario</label>
+                <input type="text" class="form-control" id="user" name="user"> 
+            </div>
+        
+            <div class="mb-3">
+                <label for="pass" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" id="pass" name="pass" >
+
+                <div class="mb-3 my-2" id="message" style="display: none;">Usuario o Contraseña incorrecto</div>
+            </div>
+
+            <div class="mb-3">
+                <input type="button" class="btn btn-primary" id="ingresar" value="Ingresar">
+            </div>
+
+            <div class="mb-3">
+                <input type="checkbox" id="remenber"> Recordar 
+            </div>
+        </form>
+
+        <script src="main.js"></script>
+</body>
+</html>
