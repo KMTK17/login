@@ -10,7 +10,11 @@ document.getElementById('ingresar').addEventListener('click', ()=>{
 
 if(user == usuario && pass == contraseña){
 
-    location = 'welcome.html';
+    alert("Bienvenido");
+    setTimeout(()=>{
+
+        location = 'welcome.html'},1000);
+    
 
 }else{
 

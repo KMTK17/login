@@ -25,7 +25,7 @@
 
         <div id="usuario">
             <a>
-                <p><b>Usuario:</b> Kmtk</p>
+                <p>Usuario:Kmtk</p>
             </a>
         </div>
         </div>
@@ -57,27 +57,29 @@
             <div class="card" style="width: 18rem;">
                 <label for="products" class="form-label">Seleccionar:</label>
                 <div class="card-body">
-                    <select name="products" id="products" class="form-control">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
+                    <select name="products" id="products" class="form-select">
+                        <option value=""></option>
+                        <option value="1">Youkoso jitsuryoku shijou shugi no kyoushitsu e</option>
+                        <option value="2">Suzume no tojimari</option>
+                        <option value="3">Bleach</option>
+                        <option value="4">Mushoku Tensei: Jobless Reincarnation</option>
                     </select>
+
+                    <input type="button" id="pedir" value="Pedir" class="btn btn-outline-dark">
                 </div>
             </div>
 
             <div class="card" style="width: 18rem;">
                 <img src="img/Classroom_of_the_Elite_S2.webp" class="card-img-top" alt="anime">
                 <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
+                    <p class="card-text">Youkoso jitsuryoku shijou shugi no kyoushitsu e</p>
                 </div>
             </div>
 
             <div class="card" style="width: 18rem;">
                 <img src="img/1144811.webp" class="card-img-top" alt="anime">
                 <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
+                    <p class="card-text">Suzume no tojimari</p>
                 </div>
             </div>
 
@@ -85,8 +87,14 @@
             <div class="card" style="width: 18rem;">
                 <img src="img/Bleach_poster_2.webp" class="card-img-top" alt="anime">
                 <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
+                    <p class="card-text">Bleach</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="img/E86U3zIX0AM02_5-1.jpg" class="card-img-top" alt="anime">
+                <div class="card-body">
+                    <p class="card-text">Mushoku Tensei: Jobless Reincarnation</p>
                 </div>
             </div>
 
@@ -96,6 +104,20 @@
     <footer id="pie" class="bg-light">
         <p><b> Desarrollado Por:</b> Denilson Gonzalez Berdugo - - - Coex</p>
     </footer>
+
+    <div id="modal">
+        <div id="modal_info">
+            <h3 id="modal_info_title">Informacion del Pedido</h3>
+            <p id="modal_info_subtitle">Producto Seleccionado</p>
+            <p id="anime"></p>
+            <div id="grupo_botones">
+                <button id="cancel" class="btn btn-outline-dark">Cancelar</button>
+                <button id="aceptar" class="btn btn-outline-dark">Aceptar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="modal.js"></script>
 
 </body>
 
