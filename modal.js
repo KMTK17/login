@@ -24,3 +24,4 @@ cancel.addEventListener('click', ()=>{
     modal.style.top = '';
     products.selectedIndex = '';
 })
+
