@@ -24,3 +24,8 @@ cancel.addEventListener('click', ()=>{
     modal.style.top = '';
     products.selectedIndex = '';
 })
+
+aceptar.addEventListener('click', ()=>{
+
+    location = 'producto.html';
+})
